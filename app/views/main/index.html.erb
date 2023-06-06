@@ -3,6 +3,7 @@
 <p>This is an application to manage a to do list.</p>
 
 
-<%= link_to('Tasks', {controller: 'tasks', action: 'index', page: 1}) %><br />
+<%= link_to('Catagories', catagories_path) %><br />
+<%= link_to('Tasks', tasks_path(page: 1)) %><br />
 
 <%= link_to('About', {controller: 'main', action: 'about'}) %><br />
